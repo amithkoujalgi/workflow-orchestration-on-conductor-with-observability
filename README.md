@@ -15,8 +15,8 @@
 
 ### Introduction
 
-This demonstration features the seamless workflow orchestration with Netflix's Conductor with workers as Spring Boot
-apps and observability over the orchestration.
+This is a project featuring seamless workflow orchestration with Netflix's Conductor framework with Spring Boot apps registered as task workers that execute the tasks of configured workflows.
+It also provides full observability of the system and workflows.
 
 ### Design
 
