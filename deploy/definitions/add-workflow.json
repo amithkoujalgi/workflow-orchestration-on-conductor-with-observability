@@ -1,0 +1,46 @@
+{
+  "createTime": 1703697864474,
+  "updateTime": 1703698716133,
+  "accessPolicy": {},
+  "name": "AddAndSquareNumbersFlow",
+  "description": "Flow to add nums and then square it",
+  "version": 1,
+  "tasks": [
+    {
+      "name": "add-numbers",
+      "taskReferenceName": "add-numbers-ref",
+      "inputParameters": {
+        "num1": "${workflow.input.num1}",
+        "num2": "${workflow.input.num2}"
+      },
+      "type": "SIMPLE",
+      "startDelay": 0,
+      "optional": false,
+      "asyncComplete": false
+    },
+    {
+      "name": "square-number",
+      "taskReferenceName": "square-number-ref",
+      "inputParameters": {
+        "num": "${add-numbers-ref.output.sum}"
+      },
+      "type": "SIMPLE",
+      "startDelay": 0,
+      "optional": false,
+      "asyncComplete": false
+    }
+  ],
+  "inputParameters": [],
+  "outputParameters": {
+    "sum": "${add-numbers-ref.output.sum}",
+    "square": "${square-number-ref.output.square}"
+  },
+  "schemaVersion": 2,
+  "restartable": true,
+  "workflowStatusListenerEnabled": false,
+  "ownerEmail": "some@email.com",
+  "timeoutPolicy": "ALERT_ONLY",
+  "timeoutSeconds": 0,
+  "variables": {},
+  "inputTemplate": {}
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "square-number",
+    "description": "Square a numbers and return the value",
+    "retryCount": 0,
+    "timeoutSeconds": 3600,
+    "inputKeys": [
+      "num"
+    ],
+    "outputKeys": [
+      "square"
+    ],
+    "timeoutPolicy": "TIME_OUT_WF",
+    "retryLogic": "FIXED",
+    "retryDelaySeconds": 60,
+    "responseTimeoutSeconds": 600,
+    "rateLimitPerFrequency": 0,
+    "rateLimitFrequencyInSeconds": 1,
+    "ownerEmail": "some@mail.com"
+  }
+]

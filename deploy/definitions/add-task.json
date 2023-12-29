@@ -1,0 +1,22 @@
+[
+  {
+    "name": "add-numbers",
+    "description": "Add 2 numbers and return sum",
+    "retryCount": 0,
+    "timeoutSeconds": 3600,
+    "inputKeys": [
+      "num1",
+      "num2"
+    ],
+    "outputKeys": [
+      "sum"
+    ],
+    "timeoutPolicy": "TIME_OUT_WF",
+    "retryLogic": "FIXED",
+    "retryDelaySeconds": 60,
+    "responseTimeoutSeconds": 600,
+    "rateLimitPerFrequency": 0,
+    "rateLimitFrequencyInSeconds": 1,
+    "ownerEmail": "some@mail.com"
+  }
+]

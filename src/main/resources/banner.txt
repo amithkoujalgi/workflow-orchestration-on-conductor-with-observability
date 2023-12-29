@@ -1,0 +1,6 @@
+
+[Sample Task Worker]
+
+Spring Boot: ${spring-boot.formatted-version}
+App version: ${application.formatted-version}
+
