@@ -4,7 +4,7 @@ build:
 build-test:
 	mvn -U clean verify install package --file pom.xml
 
-add-workflows:
+add-workflow:
 	cd ./deploy && bash setup-tasks-and-workflow.sh && cd -
 
 start-worker:

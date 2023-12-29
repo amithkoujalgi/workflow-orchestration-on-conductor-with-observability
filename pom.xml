@@ -27,76 +27,46 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
-        <!--<dependency>
-            <groupId>javax.ws.rs</groupId>
-            <artifactId>javax.ws.rs-api</artifactId>
-            <version>2.0.1</version>
-        </dependency>
--->
-        <!-- https://mvnrepository.com/artifact/com.netflix.servo/servo-core -->
         <dependency>
             <groupId>com.netflix.servo</groupId>
             <artifactId>servo-core</artifactId>
             <version>0.5.3</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>19.0</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-core -->
         <dependency>
             <groupId>com.sun.jersey</groupId>
             <artifactId>jersey-core</artifactId>
             <version>1.19.1</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/com.sun.jersey/jersey-client -->
         <dependency>
             <groupId>com.sun.jersey</groupId>
             <artifactId>jersey-client</artifactId>
             <version>1.19.1</version>
         </dependency>
-
-
-        <!-- https://mvnrepository.com/artifact/com.netflix.archaius/archaius-core -->
         <dependency>
             <groupId>com.netflix.archaius</groupId>
             <artifactId>archaius-core</artifactId>
             <version>0.3.3</version>
         </dependency>
-
-
-        <!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
             <version>2.3</version>
         </dependency>
-
         <dependency>
             <groupId>javax.ws.rs</groupId>
             <artifactId>javax.ws.rs-api</artifactId>
             <version>2.1</version>
         </dependency>
-
-        <!--<dependency>
-            <groupId>javax.ws.rs</groupId>
-            <artifactId>javax.ws.rs-api</artifactId>
-            <version>2.0-m01</version>
-        </dependency>
--->
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
         <dependency>
             <groupId>com.netflix.conductor</groupId>
             <artifactId>conductor-client</artifactId>
