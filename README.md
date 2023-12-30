@@ -145,11 +145,14 @@ Dashboard:
 <img src="./.demo-stuff/7.png" alt="Dashboard - part 1"/>
 
 
-### References
-
 ### Contributions
 
 Contributions are welcome!
 
 The dashboard needs a lot more information and the existing ones might also need some
 updates. Any help would be much appreciated.
+
+### References
+
+- https://github.com/Netflix/conductor
+- https://github.com/orkes-io/orkes-conductor-community
