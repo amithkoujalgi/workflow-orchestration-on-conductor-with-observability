@@ -11,11 +11,13 @@
 - [Prerequisites](#prerequisites)
 - [Build](#build)
 - [Run](#run)
+- [Images](#images)
 - [References](#references)
 
 ### Introduction
 
-This is a project featuring seamless workflow orchestration with Netflix's Conductor framework with Spring Boot apps registered as task workers that execute the tasks of configured workflows.
+This is a project featuring seamless workflow orchestration with Netflix's Conductor framework with Spring Boot apps
+registered as task workers that execute the tasks of configured workflows.
 It also provides full observability of the system and workflows.
 
 ### Design
@@ -68,31 +70,33 @@ It also provides full observability of the system and workflows.
 make build
 ```
 
-### Start Conductor
+### Run
+
+#### Start Conductor
 
 ```shell
 make start-docker
 ```
 
-### Add workflow
+#### Add workflow
 
 ```shell
 make add-workflow
 ```
 
-### Start Worker
+#### Start Worker
 
 ```shell
 make start-worker
 ```
 
-### Trigger a workflow run
+#### Trigger a workflow run
 
 ```shell
 make exec-workflow
 ```
 
-### Trigger a faulty workflow run
+#### Trigger a faulty workflow run
 
 ```shell
 make exec-workflow-faulty
@@ -100,9 +104,24 @@ make exec-workflow-faulty
 
 With all services up, access:
 
-| Description                           | Link                                        |
+| Description                           | URL                                         |
 |---------------------------------------|---------------------------------------------|
 | Conductor UI                          | http://localhost:5000                       | 
 | Grafana UI                            | http://localhost:3000                       |                 
 | Conductor REST API Playground         | http://localhost:8080/swagger-ui/index.html |                 
 | Conductor Prometheus Metrics Endpoint | http://localhost:8080/actuator/prometheus   |                 
+
+### Images
+
+Workflow Definition:
+
+<img src="./.demo-stuff/1.png"/>
+
+### References
+
+### Contributions
+
+Contributions are welcome! 
+
+The dashboard needs a lot more information and the existing ones might also need some
+updates. Any help would be much appreciated.
