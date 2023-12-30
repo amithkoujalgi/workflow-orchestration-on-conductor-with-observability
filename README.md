@@ -115,13 +115,41 @@ With all services up, access:
 
 Workflow Definition:
 
-<img src="./.demo-stuff/1.png"/>
+<img src="./.demo-stuff/1.png" alt="Workflow Definition"/>
+
+
+Workbench to run Workflows:
+
+<img src="./.demo-stuff/2.png" alt="Workbench to run Workflows"/>
+
+
+Listing of Workflow Runs:
+
+<img src="./.demo-stuff/3.png" alt="Listing of Workflow Runs"/>
+
+
+Listing of Task Runs:
+
+<img src="./.demo-stuff/4.png" alt="Listing of Task Runs"/>
+
+
+Completed Workflow:
+
+<img src="./.demo-stuff/5.png" alt="Completed Workflow"/>
+
+
+Dashboard:
+
+<img src="./.demo-stuff/6.png" alt="Dashboard - part 1"/>
+
+<img src="./.demo-stuff/7.png" alt="Dashboard - part 1"/>
+
 
 ### References
 
 ### Contributions
 
-Contributions are welcome! 
+Contributions are welcome!
 
 The dashboard needs a lot more information and the existing ones might also need some
 updates. Any help would be much appreciated.
